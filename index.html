@@ -1,0 +1,14 @@
+<h1>ローカルストレージ</h1
+<div>
+  <input type="file" id="fileInput">
+  <button onclick="saveFile()">IndexedDBに保存</button>
+  <div id="status"></div>
+</div>
+
+<!-- 保存と表示のエリア -->
+<div id="preview">
+  <!-- ここに画像が表示される -->
+</div>
+
+<!-- ダウンロード用ボタン（最初は隠しておく） -->
+<button id="downloadBtn" style="display:none;" onclick="downloadImage()">画像をダウンロード</button>
